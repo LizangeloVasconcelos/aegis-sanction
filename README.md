@@ -6,7 +6,7 @@ O **Aegis Sanction** é uma aplicação FullStack de alta complexidade desenvolv
 > **Status do Projeto:** Em desenvolvimento
 
 ##  Funcionalidades Principais
-1. **Engine de Triagem Multijurisdicional:** Normalização de listas globais (OFAC, ONU, UE) em uma base única e íntegra.
+1. ** Engine de Triagem Multijurisdicional:** Normalização de listas globais (OFAC, ONU, UE) em uma base única e íntegra.
 2. **Algoritmo de Similaridade Fonética:** Busca inteligente (Fuzzy Logic) para detectar variações de nomes e erros de digitação, reduzindo falsos negativos.
 3. **Mapeamento de Beneficiários (UBO):** Visualização de estruturas societárias para identificar riscos ocultos em empresas de fachada.
 
