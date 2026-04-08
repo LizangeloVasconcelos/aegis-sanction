@@ -20,3 +20,5 @@ Este projeto foi escolhido por sua alta complexidade lógica, exigindo:
 - Tratamento de dados não estruturados.
 - Performance em consultas de larga escala.
 - Segurança e integridade de missão crítica.
+- 
+##Desenvolvido por Lizangelo##
