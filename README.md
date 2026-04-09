@@ -21,4 +21,4 @@ Este projeto foi escolhido por sua alta complexidade lógica, exigindo:
 - Performance em consultas de larga escala.
 - Segurança e integridade de missão crítica.
 - 
-##Desenvolvido por Lizangelo##
+## Desenvolvido por Lizangelo
