@@ -3,39 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aegis Sanction - Apresentação</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background: #1e1e1e;
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            text-align: center;
-            border: 1px solid #333;
-        }
-        h1 { color: #00ff88; }
-        p { color: #aaa; }
-    </style>
+    <title>Aegis Sanction | Inteligência em Conformidade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-slate-50 text-slate-900 font-sans">
 
-    <div class="card">
-        <h1>Aegis Sanction</h1>
-        <p>Sistema de Monitoramento de Sanções Internacionais</p>
-        <hr style="border: 0.5px solid #333; width: 100%;">
-        <p>Desenvolvido por: Lizangelo Silva Vasconcelos</p>
-    </div>
+    <!-- BARRA DE STATUS (O FEELING CORPORATIVO) -->
+    <header class="bg-slate-900 text-white p-3 flex justify-between items-center text-xs uppercase tracking-widest">
+        <span>Aegis Sanction // System v1.0</span>
+        <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+            <span>Sincronizado: OFAC / ONU / UE</span>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (O PROBLEMA E A SOLUÇÃO) -->
+    <section class="max-w-5xl mx-auto py-16 px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
+            Inteligência de Vigilância para um <span class="text-blue-700">Mundo em Conflito</span>.
+        </h1>
+        <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-10">
+            Guerras e disputas transnacionais geram um volume de sanções impossível de monitorar manualmente. 
+            O caos informativo é o maior inimigo da conformidade. O **Aegis** é a sua barreira técnica.
+        </p>
+        <div class="h-1 w-20 bg-blue-700 mx-auto"></div>
+    </section>
+
+    <!-- GRID DE FUNCIONALIDADES (AS 3 CAMADAS) -->
+    <main class="max-w-6xl mx-auto px-6 pb-20">
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <!-- MÓDULO 01 -->
+            <div class="bg-white p-8 border-t-4 border-blue-700 shadow-sm hover:shadow-md transition-shadow">
+                <span class="text-xs font-bold text-blue-700 tracking-widest uppercase">Módulo 01</span>
+                <h3 class="text-xl font-bold mt-2 mb-4">Monitoramento de Crise</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Atualização em tempo real conforme novos alvos surgem no cenário global. 
+                    Ingestão automática de listas para garantir que sua base nunca esteja desatualizada.
+                </p>
+            </div>
+
+            <!-- MÓDULO 02 -->
+            <div class="bg-white p-8 border-t-4 border-blue-700 shadow-sm hover:shadow-md transition-shadow">
+                <span class="text-xs font-bold text-blue-700 tracking-widest uppercase">Módulo 02</span>
+                <h3 class="text-xl font-bold mt-2 mb-4">Identificação de Vínculos</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Rastreamento de entidades (UBO) que tentam se esconder atrás de fachadas em zonas de conflito. 
+                    Nenhum vínculo é invisível para nossa inteligência de dados.
+                </p>
+            </div>
+
+            <!-- MÓDULO 03 -->
+            <div class="bg-white p-8 border-t-4 border-blue-700 shadow-sm hover:shadow-md transition-shadow">
+                <span class="text-xs font-bold text-blue-700 tracking-widest uppercase">Módulo 03</span>
+                <h3 class="text-xl font-bold mt-2 mb-4">Risco Transnacional</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Cruzamento multijurisdicional para proteção total da marca. 
+                    Análise profunda para evitar o descumprimento involuntário de sanções globais.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- RODAPÉ SIMPLES -->
+    <footer class="text-center pb-10 text-slate-400 text-xs">
+        &copy; 2026 Aegis Sanction Project - Desenvolvido por Lizangelo.
+    </footer>
 
 </body>
 </html>
